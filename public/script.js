@@ -110,7 +110,7 @@ $(function () {
     $("#invite_button").click(function(){
         const to = prompt("Enter the email")
         let data = {
-            url:"window.location.href",
+            url: window.location.href,
             to:to,
         }
         $.ajax({
