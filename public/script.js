@@ -127,6 +127,7 @@ $(function () {
             }
         })
     })
+
 })
 
 peer.on("open", (id) => {
